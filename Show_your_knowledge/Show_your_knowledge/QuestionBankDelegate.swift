@@ -8,6 +8,6 @@
 import Foundation
 
 protocol QuestionBankDelegate {
-    func didAddQuestion()
-    func didUpdateQuestion()
+    func didAddedQuestion()
+    func didMadeChanges()
 }

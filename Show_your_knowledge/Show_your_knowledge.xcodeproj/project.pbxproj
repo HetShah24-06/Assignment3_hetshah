@@ -16,13 +16,13 @@
 		D3E14CC12D9604A100642BBF /* Show_your_knowledgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CC02D9604A100642BBF /* Show_your_knowledgeTests.swift */; };
 		D3E14CCB2D9604A100642BBF /* Show_your_knowledgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CCA2D9604A100642BBF /* Show_your_knowledgeUITests.swift */; };
 		D3E14CCD2D9604A100642BBF /* Show_your_knowledgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CCC2D9604A100642BBF /* Show_your_knowledgeUITestsLaunchTests.swift */; };
-		D3E14CDA2D96057700642BBF /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CD92D96057700642BBF /* QuestionModel.swift */; };
-		D3E14CDC2D9605AB00642BBF /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CDB2D9605AB00642BBF /* QuizModel.swift */; };
+		D3E14CDA2D96057700642BBF /* Quiestionmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CD92D96057700642BBF /* Quiestionmodel.swift */; };
+		D3E14CDC2D9605AB00642BBF /* QuizQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CDB2D9605AB00642BBF /* QuizQuestions.swift */; };
 		D3E14CDE2D9605EC00642BBF /* QuestionBankDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CDD2D9605EC00642BBF /* QuestionBankDelegate.swift */; };
 		D3E14CE02D96081A00642BBF /* QuestionBankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CDF2D96081A00642BBF /* QuestionBankTableViewController.swift */; };
 		D3E14CE22D96085500642BBF /* QuestionBuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CE12D96085500642BBF /* QuestionBuilderViewController.swift */; };
 		D3E14CE42D96089500642BBF /* QuestionBankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CE32D96089500642BBF /* QuestionBankTableViewCell.swift */; };
-		D3E14CE62D9608C000642BBF /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CE52D9608C000642BBF /* UpdateViewController.swift */; };
+		D3E14CE62D9608C000642BBF /* ModifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CE52D9608C000642BBF /* ModifyViewController.swift */; };
 		D3E14CE82D96090900642BBF /* CustomRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CE72D96090900642BBF /* CustomRadioButton.swift */; };
 		D3E14CEA2D96093500642BBF /* RiddlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E14CE92D96093500642BBF /* RiddlesViewController.swift */; };
 /* End PBXBuildFile section */
@@ -58,13 +58,13 @@
 		D3E14CC62D9604A100642BBF /* Show_your_knowledgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Show_your_knowledgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E14CCA2D9604A100642BBF /* Show_your_knowledgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_your_knowledgeUITests.swift; sourceTree = "<group>"; };
 		D3E14CCC2D9604A100642BBF /* Show_your_knowledgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_your_knowledgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D3E14CD92D96057700642BBF /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
-		D3E14CDB2D9605AB00642BBF /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		D3E14CD92D96057700642BBF /* Quiestionmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiestionmodel.swift; sourceTree = "<group>"; };
+		D3E14CDB2D9605AB00642BBF /* QuizQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestions.swift; sourceTree = "<group>"; };
 		D3E14CDD2D9605EC00642BBF /* QuestionBankDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBankDelegate.swift; sourceTree = "<group>"; };
 		D3E14CDF2D96081A00642BBF /* QuestionBankTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBankTableViewController.swift; sourceTree = "<group>"; };
 		D3E14CE12D96085500642BBF /* QuestionBuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBuilderViewController.swift; sourceTree = "<group>"; };
 		D3E14CE32D96089500642BBF /* QuestionBankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBankTableViewCell.swift; sourceTree = "<group>"; };
-		D3E14CE52D9608C000642BBF /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		D3E14CE52D9608C000642BBF /* ModifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyViewController.swift; sourceTree = "<group>"; };
 		D3E14CE72D96090900642BBF /* CustomRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRadioButton.swift; sourceTree = "<group>"; };
 		D3E14CE92D96093500642BBF /* RiddlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddlesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,13 +124,13 @@
 				D3E14CB22D9604A100642BBF /* Assets.xcassets */,
 				D3E14CB42D9604A100642BBF /* LaunchScreen.storyboard */,
 				D3E14CB72D9604A100642BBF /* Info.plist */,
-				D3E14CD92D96057700642BBF /* QuestionModel.swift */,
-				D3E14CDB2D9605AB00642BBF /* QuizModel.swift */,
+				D3E14CD92D96057700642BBF /* Quiestionmodel.swift */,
+				D3E14CDB2D9605AB00642BBF /* QuizQuestions.swift */,
 				D3E14CDD2D9605EC00642BBF /* QuestionBankDelegate.swift */,
 				D3E14CDF2D96081A00642BBF /* QuestionBankTableViewController.swift */,
 				D3E14CE12D96085500642BBF /* QuestionBuilderViewController.swift */,
 				D3E14CE32D96089500642BBF /* QuestionBankTableViewCell.swift */,
-				D3E14CE52D9608C000642BBF /* UpdateViewController.swift */,
+				D3E14CE52D9608C000642BBF /* ModifyViewController.swift */,
 				D3E14CE72D96090900642BBF /* CustomRadioButton.swift */,
 				D3E14CE92D96093500642BBF /* RiddlesViewController.swift */,
 			);
@@ -289,14 +289,14 @@
 				D3E14CAE2D9604A000642BBF /* ViewController.swift in Sources */,
 				D3E14CAA2D9604A000642BBF /* AppDelegate.swift in Sources */,
 				D3E14CAC2D9604A000642BBF /* SceneDelegate.swift in Sources */,
-				D3E14CDA2D96057700642BBF /* QuestionModel.swift in Sources */,
+				D3E14CDA2D96057700642BBF /* Quiestionmodel.swift in Sources */,
 				D3E14CE22D96085500642BBF /* QuestionBuilderViewController.swift in Sources */,
 				D3E14CE42D96089500642BBF /* QuestionBankTableViewCell.swift in Sources */,
 				D3E14CE02D96081A00642BBF /* QuestionBankTableViewController.swift in Sources */,
 				D3E14CE82D96090900642BBF /* CustomRadioButton.swift in Sources */,
 				D3E14CDE2D9605EC00642BBF /* QuestionBankDelegate.swift in Sources */,
-				D3E14CDC2D9605AB00642BBF /* QuizModel.swift in Sources */,
-				D3E14CE62D9608C000642BBF /* UpdateViewController.swift in Sources */,
+				D3E14CDC2D9605AB00642BBF /* QuizQuestions.swift in Sources */,
+				D3E14CE62D9608C000642BBF /* ModifyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

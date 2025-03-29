@@ -6,14 +6,13 @@
 //
 
 import UIKit
-
-class QuestionBankTableViewController:UITableViewController, QuestionBankDelegate {
-    func didAddQuestion() {
+class QuestionBankTableViewController: UITableViewController, QuestionBankDelegate {
+    func didAddedQuestion() {
         questions = localModel?.questions ?? []
         tableView.reloadData()
     }
     
-    func didUpdateQuestion() {
+    func didMadeChanges() {
         questions = localModel?.questions ?? []
         tableView.reloadData()
     }
@@ -55,7 +54,7 @@ class QuestionBankTableViewController:UITableViewController, QuestionBankDelegat
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier! == "updateQuestion"{
-            if let UpdateVC = segue.destination as? UpdateViewController{
+            if let UpdateVC = segue.destination as? ModifyViewController{
                 print("To Update View")
                 let localModel = self.localModel
                 let index  = tableView.indexPathForSelectedRow?.row ?? 0
